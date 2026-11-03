@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #07152e, #183c72);
+    color: white;
+    min-height: 100vh;
+
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding:25px 15px ;
+        text-align: center;
+        p1{
+            color: #6fe928;
+        }
+    }
+    h1{
+        color: #ffcc33;
+        margin-bottom: 12px;
+    }
+    .venue{
+        color: #cbd5e1;
+        margin-bottom: 30px;
+    }
+    .teams{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+        background: rgb(137, 169, 177);
+        border: 2px solid #3885da;
+        border-radius:18px ;
+        padding: 25px 10px;
+    }
+    .versus{
+        font-size: 40px;
+        font-weight: bold;
+        color: #ff5252;
+    }
+    .team{
+        flex: 1;
+        min-width: 0;
+        h2{
+            margin-top: 15px;
+            color: #ffffff;
+        }
+        h3{
+            font-size: 36px;
+            color: #ffcc33;
+            margin: 10px 0;
+        }
+        p{
+            color: #520752;
+        }
+    }
+    .heading{
+        margin: 30px 0 20px;
+        color: #ffcc33;
+    }
+    .scorebooards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .scorebooard{
+        background: #102a;
+        border-radius: 10px;
+        p{
+            color:#e90b85;
+            background-color:hsl(303, 100%, 89%);
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+        h3{
+            color: #f8b202;
+            background-color:#526d44;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            border: 2px solid hsl(184, 92%, 46%);
+    }
+    }
+    .yet{
+        color: red;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        th{
+            background: #0089d5;
+            padding: 12px;
+        }
+        td{
+            padding: 12px;
+            border-bottom: 1px solid#426;
+            text-align: left;
+        }
+        tr:hover td{
+            background:#234;
+        }
+        .out{
+            color: gray;
+        }
+        }
+    .winner{
+        margin-top: 30px;
+        padding: 20px;
+        background: linear-gradient(90deg, #0076b9, #00a7df);
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    footer{
+        margin-top: 20px;
+        color: #b8c9;
+        font-size: 14px;
+    }
+    @media ( max-width: 650px){
+        color: #ff5252;
+        background-color: white;
+    }
+}
+/*TAB SIZE*/
+@media screen and (max-width: 992px) {
+    body{
+        background: pink;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        background: yellow;
+    }
+}
+@media screen and (max-width: 576px){
+    body{
+        background: rgb(209, 209, 240);
+    }
+
+}
+    
